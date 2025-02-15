@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Ernest Bhekizwe",
+  firstName: "Ernest",
   lastName: "Shongwe",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Full Stack Software Engineer | Backend Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
   location: "Africa/Pretoria", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Zulu", "seTwsana"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "isiZulu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I build Ai-powered SaaS Products via secure DevOps pipelines using AWS
+      Azure and GCP cloud services.
     </>
   ),
 };
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/bshongwe",
+    link: "https://github.com/once-ui-system/nextjs-starter",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/ernest-shongwe/",
+    link: "https://www.linkedin.com/company/once-ui/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:ernest@beqy.co.za",
+    link: "mailto:shongwe.bhekizwe@gmail.com",
   },
 ];
 
@@ -52,13 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Full Stack Software Engineer | Backend Engineer</>,
+  headline: <>Software Engineer and DevOps Specialist</>,
   subline: (
     <>
-      I'm Ernest, Backend Engineer at <InlineCode>Beqy.ai</InlineCode>,
-      <br /> where I build Fintech Ai-powered SaaS solutions. I use AWS, Azure
-      <br /> and GCP for cloud solutions. I also build RESTful APIs, deployment
-      <br /> pipelines and CI/CD workflows.
+      I am Ernest, a Software Engineer at <InlineCode>Beqy.ai</InlineCode>, where I build
+      <br /> Ai-powered fintech solutions, deployed via secure pipelines.
     </>
   ),
 };
@@ -83,16 +81,15 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Ernest is a Johannesburg-based software engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        His work spans secure deployment pipelines (even ML deployment
-        pipelines), UI/UX, RESTful API development and database management.
+        Ernest is a Sandton-based design engineer with a passion for transforming complex challenges
+        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        experiences, and the convergence of design and technology.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "WORK EXPERIENCE",
+    title: "Work Experience",
     experiences: [
       {
         company: "Beqy.ai",
@@ -100,15 +97,12 @@ const about = {
         role: "Backend Engineer",
         achievements: [
           <>
-            Built a secure deployment pipeline, increasing deployment
-            effeciency by 85%, improving backend processing to 10K+
-            transactions/month with 99% minimum uptime and 30% increase in load
-            times.
+            Built secure DevOps pipelines that reduced deployment time by 50% and increased
+            deployment frequency by 30%.
           </>,
           <>
-            Upgraded Azure CI/CD pipelines, increasing deployment efficiency by
-            85% and enabling rollback. Optimized API performance, reducing
-            response times by 65%, improving query performance by 50%.
+            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            iterate 50% faster.
           </>,
         ],
         images: [
@@ -122,18 +116,17 @@ const about = {
         ],
       },
       {
-        company: "KalKey Inc.",
+        company: "KalKey",
         timeframe: "2022 - 2024",
-        role: "Full Stack Software Engineer | DevSecOps Engineer",
+        role: "DevOps Engineer",
         achievements: [
           <>
-            Built a secure automated deployment pipeline, resulting in a 30%
-            provisioning efficiency improvement. Implemented a 95% test
-            coverage for shipped features.
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
           </>,
           <>
-            Led an LLM RAG intergration project, capable of processing 10K+ API
-            queries per day with 99% minimum uptime.
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
           </>,
         ],
         images: [],
@@ -142,23 +135,15 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "ACADEMIC BACKGROUND",
+    title: "Studies",
     institutions: [
       {
         name: "ALX Africa",
-        description: <>Studied Software Engineering: Applied Ai.</>,
-      },
-      {
-        name: "ALX Africa",
-        description: <>Studied Software Engineering: Backend Specialization.</>,
+        description: <>Studied software engineering: Full Stack, Backend splzn.</>,
       },
       {
         name: "Headstarter",
-        description: <>Studied Software Engineering: Ai Fellowship.</>,
-      },
-      {
-        name: "Headstarter",
-        description: <>Studied Software Engineering: Ai Accelerate.</>,
+        description: <>Studied software engineering: Ai Fellowship & Resident.</>,
       },
     ],
   },
