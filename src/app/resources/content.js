@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/bhekizwe-shongwe-i5uo9b/30min",
   },
   intro: {
     display: true,
