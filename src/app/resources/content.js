@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ernest Bhekizwe",
+  lastName: "Shongwe",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full Stack Software Engineer | Backend Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Africa/South Africa", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Zulu", "seTwsana"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/bshongwe",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ernest-shongwe/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:ernest@beqy.co.za",
   },
 ];
 
@@ -52,11 +52,13 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Full Stack Software Engineer | Backend Engineer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Ernest, Backend Engineer at <InlineCode>Beqy.ai</InlineCode>,
+      <br /> where I build Fintech Ai-powered SaaS solutions. I use AWS, Azure
+      <br /> and GCP for cloud solutions. I also build RESTful APIs, deployment
+      <br /> pipelines and CI/CD workflows.
     </>
   ),
 };
@@ -81,28 +83,32 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Ernest is a Johannesburg-based software engineer with a passion for
+        transforming complex challenges into simple, elegant design solutions.
+        His work spans secure deployment pipelines (even ML deployment
+        pipelines), UI/UX, RESTful API development and database management.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "WORK EXPERIENCE",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Beqy.ai",
+        timeframe: "2024 - Present",
+        role: "Backend Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Built a secure deployment pipeline, increasing deployment
+            effeciency by 85%, improving backend processing to 10K+
+            transactions/month with 99% minimum uptime and 30% increase in load
+            times.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Upgraded Azure CI/CD pipelines, increasing deployment efficiency by
+            85% and enabling rollback. Optimized API performance, reducing
+            response times by 65%, improving query performance by 50%.
           </>,
         ],
         images: [
@@ -116,17 +122,18 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "KalKey Inc.",
+        timeframe: "2022 - 2024",
+        role: "Full Stack Software Engineer | DevSecOps Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Built a secure automated deployment pipeline, resulting in a 30%
+            provisioning efficiency improvement. Implemented a 95% test
+            coverage for shipped features.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Led an LLM RAG intergration project, capable of processing 10K+ API
+            queries per day with 99% minimum uptime.
           </>,
         ],
         images: [],
@@ -135,15 +142,23 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "ACADEMIC BACKGROUND",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "ALX Africa",
+        description: <>Studied Software Engineering: Applied Ai.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "ALX Africa",
+        description: <>Studied Software Engineering: Backend Specialization.</>,
+      },
+      {
+        name: "Headstarter",
+        description: <>Studied Software Engineering: Ai Fellowship.</>,
+      },
+      {
+        name: "Headstarter",
+        description: <>Studied Software Engineering: Ai Accelerate.</>,
       },
     ],
   },
