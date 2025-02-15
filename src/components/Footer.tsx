@@ -33,7 +33,7 @@ export const Footer = () => {
               style={{ marginLeft: "-0.125rem" }}
               href="https://ernestshong.me"
             >
-              Once UI
+              Ernest Bhekizwe Shongwe
             </SmartLink>
           </Text>
         </Text>
