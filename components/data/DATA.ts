@@ -6,9 +6,9 @@ import { FiFacebook } from "react-icons/fi";
 export const DATA = {
   name: "Asikur Rahman",
   initials: "AR",
-  url: "https://asikur.vercel.app",
-  location: "Bangladesh,BD",
-  locationLink: "https://www.google.com/maps/place/bangladesh",
+  url: "https://ernest.dev.vercel.app",
+  location: "Sandton, Johannesburg,RSA",
+  locationLink: "https://www.google.com/maps/place/south africa",
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
@@ -41,47 +41,47 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/awebcode",
+        url: "https://github.com/bshongwe",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/awebcode/",
+        url: "https://www.linkedin.com/in/ernest-shongwe/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://twitter.com/awebcode",
+        url: "https://twitter.com/ernest_b_shong",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/awebcode",
+        url: "https://youtube.com/",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:asikurrahaman997@gmail.com",
+        url: "mailto:shongwe.bhekizwe@gmail.com",
         icon: Icons.email,
 
         navbar: false,
       },
       facebook: {
         name: "Facebook",
-        url: "https://facebook.com/awebcodee",
+        url: "https://facebook.com/shongwe.bhekizwe",
         icon: FiFacebook,
         navbar: false,
       },
       Resume: {
         name: "Resume",
-        url: "https://www.canva.com/design/DAFuVlHGZVc/AAHGrFxeLFLIOy16wW4uoA/edit",
+        url: "https://www.canva.com/design/<link>/edit",
         icon: ResumeIcon,
         navbar: false,
       },
@@ -132,7 +132,7 @@ export const DATA = {
     },
     {
       company: "Open-Source Contribution Program",
-      href: "https://github.com/awebcode",
+      href: "https://github.com/bshongwe",
       badges: ["Open Source", "Remote"],
       location: "Remote",
       title: "Open Source Contributor",
