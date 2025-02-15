@@ -48,7 +48,7 @@ const Portfolio = () => {
             }}
             whileHover={{ scaleX: 1.2 }}
           >
-            My <span>Works , What </span>I Done?
+            My <span>Projects , What </span>I Have Worked On?
           </motion.h1>
 
           {btn ? (
