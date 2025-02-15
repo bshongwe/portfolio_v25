@@ -33,7 +33,7 @@ export const Footer = () => {
               style={{ marginLeft: "-0.125rem" }}
               href="https://ernestshong.me"
             >
-              Ernest Bhekizwe Shongwe
+              via my website
             </SmartLink>
           </Text>
         </Text>
