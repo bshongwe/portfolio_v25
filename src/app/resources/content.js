@@ -108,7 +108,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/Work/beqy-ai.png",
+            src: "/images/work/beqy-ai.png",
             alt: "Beqy.ai",
             width: 16,
             height: 9,
@@ -132,7 +132,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/Work/kalkey.png",
+            src: "/images/work/kalkey.png",
             alt: "Beqy.ai",
             width: 16,
             height: 9,
