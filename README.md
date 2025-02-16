@@ -1,3 +1,9 @@
+![Visits Badge](https://badges.pufler.dev/visits/bshongwe/portfolio_v25)
+![GitHub Repo Stars](https://img.shields.io/github/stars/bshongwe/portfolio_v25)
+![GitHub Forks](https://img.shields.io/github/forks/bshongwe/portfolio_v25)
+![GitHub Issues](https://img.shields.io/github/issues/bshongwe/portfolio_v25)
+![GitHub License](https://img.shields.io/github/license/bshongwe/portfolio_v25)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
