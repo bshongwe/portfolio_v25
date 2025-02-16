@@ -108,8 +108,8 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/Work/beqy-ai.png",
+            alt: "Beqy.ai",
             width: 16,
             height: 9,
           },
@@ -129,7 +129,15 @@ const about = {
             in overall company revenue.
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/Work/kalkey.png",
+            alt: "Beqy.ai",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -189,7 +197,7 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about Software Engineering concepts and technical experinces...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
