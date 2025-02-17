@@ -284,32 +284,82 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "DevOps Pipelines",
+        description: <>Building secure app and SaaS CI/CD pipelines via GitHub Actions and Microsoft Azure Pipelines.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
+            src: "/images/skills/devops.jpeg",
+            alt: "DevOps image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/skills/devops-02.jpeg",
+            alt: "DevOps image",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Ai DevOps Data Pipelines",
+        description: <>Building secure data pipelines via GitHub Actions and Microsoft Azure Pipelines.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "/images/skills/ai-ml-pipeline.png",
+            alt: "Ai DevOps image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/skills/ai-ml-pipeline-2.png",
+            alt: "Ai DevOps image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "DevOps: Orchestration",
+        description: <>Provisioning and containerisation for cloud deployments.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/skills/k8s-devops.png",
+            alt: "DevOps image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/skills/terraform.jpeg",
+            alt: "DevOps image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/skills/jenkins.jpeg",
+            alt: "DevOps image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/skills/docker.jpg",
+            alt: "DevOps image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "SaaS Development",
+        description: <>Building next gen SaaS apps using Next.js or other modren frontend frameworks.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/skills/SaaS.png",
+            alt: "SaaS image",
             width: 16,
             height: 9,
           },
