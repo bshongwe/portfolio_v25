@@ -81,9 +81,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Ernest is a Sandton-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. His work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Ernest is a Sandton-based software engineer, passionate about buiding
+        multiplatiform solutions with 3+ years of experience. His work involves
+        LLM RAG Full Stack SaaS products and secure DevOps pipelines.
       </>
     ),
   },
@@ -97,12 +97,13 @@ const about = {
         role: "Backend Engineer",
         achievements: [
           <>
-            Built secure DevOps pipelines that reduced deployment time by 50% and increased
-            deployment frequency by 30%.
+            Built secure DevOps pipelines for Ai/ML fintech SaaS that supports
+            200k+ records and 1k+ users (via Azure CI/CD, Docker and K8s) to
+            increase deployment effeciency time by 50%.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Spearheaded the integration of AI tools into design workflows,
+            enabling designers to iterate 50% faster.
           </>,
         ],
         images: [
@@ -121,12 +122,13 @@ const about = {
         role: "DevOps Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Deployed and maintained 4+ automated pipelines, a high-availability
+            data pipeline (DynamoDB, CosmosDB) and severless architecture (AWS
+            Lambda & API Gateway) leading to 25% deployment effeciency.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Led maintenance of 4+ projects, improved setup effeciency by 30%
+            and reduced downtime by 40%.
           </>,
         ],
         images: [
@@ -145,12 +147,12 @@ const about = {
         role: "Full Stack Python Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Built and maintained 7+ serverless Python-based apps using AWS
+            Lambda and AWS API Gateway, achieving 20% bug reduction and 15%
+            server response delay.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Optimised UI/UX, increasing custmoer satisfaction by 30%.
           </>,
         ],
         images: [
@@ -169,12 +171,15 @@ const about = {
         role: "Full Stack Web Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed and built 4+ MERN project, optimised load time by 40%,
+            optmised 8+ web systems to reduce server response delay by 35%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed and built 12+ additional projects to improve uptime to
+            99%.
+          </>,
+          <>
+            Mnetored 5 incoming junior developers.
           </>,
         ],
         images: [
@@ -193,12 +198,12 @@ const about = {
         role: "App Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed iOS and Android apps using React Native with 15% reduced
+            latency, 20% improved UI/UX, 30% reduced bugs and 99.9% stability.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Used effecient version control to manage 5+ projects, redced
+            deployment errors by 35%.
           </>,
         ],
         images: [
@@ -217,12 +222,13 @@ const about = {
         role: "Frontend Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Built 20+ projects, ensuring 100% responsive design, 99% uptime and
+            99.9% stability, reduced load time by 40% and improved UI/UX by 30%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Boosted website performance through SEO improvements by 40%, 25%
+            improvement on UI/UX and 30% increase in customer satisfaction due
+            to a 30% deployment error reduction rate.
           </>,
         ],
         images: [
@@ -259,12 +265,12 @@ const about = {
       {
         name: "Headstarter",
         timeframe: "Jun 2024 - Sept 2025",
-        description: <>Software Engineering: Ai Resident.</>,
+        description: <>Software Engineering: Ai Fellowship.</>,
       },
       {
         name: "ALX Africa",
         timeframe: "Jun 2023 - Jul 2024",
-        description: <>Software Engineering: Full Stack, Backend specialization.</>,
+        description: <>Software Engineering: Full Stack, Backend Specialization.</>,
       },
       {
         name: "freeCodeCamp",
