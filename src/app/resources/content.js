@@ -93,7 +93,7 @@ const about = {
     experiences: [
       {
         company: "Beqy.ai",
-        timeframe: "2024 - Present",
+        timeframe: "Nov 2024 - Present",
         role: "Backend Engineer",
         achievements: [
           <>
@@ -116,8 +116,8 @@ const about = {
         ],
       },
       {
-        company: "KalKey",
-        timeframe: "2022 - 2024",
+        company: "KalKey Inc",
+        timeframe: "Apr 2024 - Nov2024",
         role: "DevOps Engineer",
         achievements: [
           <>
@@ -133,7 +133,103 @@ const about = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/work/kalkey.png",
-            alt: "Beqy.ai",
+            alt: "KalKey",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "KalKey Inc",
+        timeframe: "Mar 2024 - Apr 2024",
+        role: "Full Stack Python Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/work/kalkey.png",
+            alt: "KalKey",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "KalKey Inc",
+        timeframe: "Dec 2023 - Mar 2024",
+        role: "Full Stack Web Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/work/kalkey.png",
+            alt: "KalKey",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "KalKey Inc",
+        timeframe: "Oct 2023 - Dec 2023",
+        role: "App Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/work/kalkey.png",
+            alt: "KalKey",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "KalKey Inc",
+        timeframe: "Apr 2022 - Oct 2023",
+        role: "Frontend Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/work/kalkey.png",
+            alt: "KalKey",
             width: 16,
             height: 9,
           },
@@ -147,11 +243,33 @@ const about = {
     institutions: [
       {
         name: "ALX Africa",
-        description: <>Studied software engineering: Full Stack, Backend splzn.</>,
+        timeframe: "Sept 2024 - present",
+        description: <>Software Engineering: Applied Ai.</>,
+      },
+      {
+        name: "KalKey Inc.",
+        timeframe: "May 2024 - Dec 2024",
+        description: <>DevOps Training Course: Linux, AWS, Azure & K8s.</>,
       },
       {
         name: "Headstarter",
-        description: <>Studied software engineering: Ai Fellowship & Resident.</>,
+        timeframe: "Sept 2024 - Feb 2025",
+        description: <>Software Engineering: Ai Resident.</>,
+      },
+      {
+        name: "Headstarter",
+        timeframe: "Jun 2024 - Sept 2025",
+        description: <>Software Engineering: Ai Resident.</>,
+      },
+      {
+        name: "ALX Africa",
+        timeframe: "Jun 2023 - Jul 2024",
+        description: <>Software Engineering: Full Stack, Backend specialization.</>,
+      },
+      {
+        name: "freeCodeCamp",
+        timeframe: "Jan 2023 - Jun 2023",
+        description: <>Full Stack Web Development.</>,
       },
     ],
   },
