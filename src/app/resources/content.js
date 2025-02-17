@@ -295,7 +295,7 @@ const about = {
             height: 9,
           },
           {
-            src: "/images/skills/devops-02.jpeg",
+            src: "/images/skills/devops-2.jpeg",
             alt: "DevOps image",
             width: 16,
             height: 9,
@@ -358,7 +358,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/skills/SaaS.png",
+            src: "/images/skills/saas.png",
             alt: "SaaS image",
             width: 16,
             height: 9,
