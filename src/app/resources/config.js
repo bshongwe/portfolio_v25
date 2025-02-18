@@ -11,7 +11,7 @@ const routes = {
 // Enable password protection on selected routes
 // Set password in the .env file, refer to .env.example
 const protectedRoutes = {
-  "/work/projects/customer-churn-prediction-mlflow-dvc-e2e-pipeline.mdx": true,
+  "/work/customer-churn-prediction-mlflow-dvc-e2e-pipeline.mdx": true,
 };
 
 const style = {
