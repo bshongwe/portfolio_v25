@@ -1,0 +1,74 @@
+---
+title: "Holberton AirBnB (HBNB) - The Console and Web Framework"
+publishedAt: "2024-12-02"
+summary: "A customer support automation service leveraging Retrieval-Augmented Generation (RAG) with OpenAI and Pinecone."
+tags: [AI, RAG, OpenAI, Pinecone, Node.js, PostgreSQL]
+
+images:
+  - "/images/projects/project-04/air-bnb.jpg"
+  - "/images/projects/project-04/air-bnb.png"
+  - "/images/projects/project-04/air-bnb-1.jpg"
+  - "/images/projects/project-04/air-bnb-5.jpg"
+  - "/images/projects/project-04/air-bnb-4.jpg"
+team:
+  - name: "Ernest Shongwe"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/ernest-shongwe/"
+link: "https://github.com/bshongwe/ai24support-openai-pinecone-rag/"
+---
+
+# Holberton AirBnB (HBNB) - The Console and Web Framework 🖥️🌐
+
+This repository is part of a project to build a fully functional clone of the AirBnB website. The development process started with implementing a backend console for managing program data, followed by integrating a Flask-based web framework for a dynamic user interface. The final phase involved deploying a MySQL database in an NGINX server, ensuring scalability and optimized data management. This project showcases a comprehensive understanding of object-oriented programming, data persistence, web development, and deployment strategies. 🚀
+
+## Project Overview 📝
+The first stage of development focused on creating a command-line interface (CLI) that allows users to perform CRUD (Create, Read, Update, Delete) operations on various objects. Data is stored persistently using JSON serialization and deserialization. 💾
+
+In the second stage, a web framework was introduced using Flask to provide an interactive interface for users. This web application dynamically generates content based on stored objects, enabling users to manage entities such as places, users, amenities, and more. 🌍
+
+The final stage included deploying the application with a MySQL database on an NGINX server, enhancing performance, scalability, and data integrity. 🏗️
+
+## Development Challenges 🛠️
+During development, several challenges arose:
+- **Data Persistence:** Implementing JSON serialization for persistent storage while ensuring data integrity and consistency. 🗃️
+- **Dynamic Class Handling:** Designing a flexible system to accommodate dynamically created classes and their relationships. 🔄
+- **Scalability:** Structuring the codebase to allow seamless integration of new features. 📈
+- **Web Framework Integration:** Transitioning from a CLI-based application to a web-based interface while maintaining efficient data access and rendering. 🌐
+- **Routing Complexity:** Implementing dynamic routes in Flask to correctly display hierarchical data such as cities by state. 🛣️
+- **Database Deployment:** Setting up a MySQL database within an NGINX server, optimizing data retrieval and ensuring efficient load handling. ⚙️
+
+## Repository Contents by Project Task 📂
+
+| Task | Files | Description |
+|------|-------|-------------|
+| 0: Authors/README File | AUTHORS | Project authors 👨‍💻👩‍💻 |
+| 1: PEP8 Compliance | N/A | All code adheres to PEP8 style guidelines 📏 |
+| 2: Unit Testing | /tests | All class-defining modules are unit tested ✅ |
+| 3. BaseModel Implementation | /models/base_model.py | Defines a parent class to be inherited by all model classes 🏗️ |
+| 4. BaseModel Updates | /models/base_model.py | Adds functionality to recreate an instance of a class from a dictionary representation 🔄 |
+| 5. FileStorage Class | /models/engine/file_storage.py, /models/__init__.py, /models/base_model.py | Implements a file-based storage system 💾 |
+| 6. Basic Console | console.py | Implements basic console functionality such as quitting, handling empty lines, and recognizing EOF ⌨️ |
+| 7. Enhanced Console | console.py | Adds CRUD operations for stored data 🛠️ |
+| 8. User Class Implementation | console.py, /models/engine/file_storage.py, /models/user.py | Implements a User class dynamically 👥 |
+| 9. Additional Classes | /models/user.py, /models/place.py, /models/city.py, /models/amenity.py, /models/state.py, /models/review.py | Implements additional dynamic classes 🏙️🏠🌆 |
+| 10. Console Enhancements | console.py, /models/engine/file_storage.py | Updates console for dynamic class handling 🔧 |
+| 11. Flask Web Framework | /web_flask | Introduces Flask-based web pages for data interaction 🌐 |
+| 12. Web Static Content | /web_static | Manages front-end assets for styling and presentation 🎨 |
+| 13. MySQL Database & NGINX Deployment | /db_setup, /nginx_config | Configures MySQL database and deploys on an NGINX server 🖥️📊 |
+
+
+## Flask Web Application 🌍
+With Flask integration, users can access a web interface to view and manage stored objects. To start the web application:
+
+
+### Web Routes 🛣️
+The Flask application provides dynamic routes for enhanced interaction:
+* `/` - Displays a welcome message 👋
+* `/hbnb` - Loads the main AirBnB clone interface 🏠
+* `/cities_by_states` - Displays a list of cities grouped by state 🏙️
+* `/states` - Shows all stored states 🌍
+
+This integration enhances user experience by providing a seamless bridge between the command-line interface and a user-friendly web-based interface 🌐
+
+Stay tuned for further updates as we continue refining and expanding this AirBnB clone! 🎉
