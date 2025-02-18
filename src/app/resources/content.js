@@ -99,7 +99,7 @@ const about = {
           <>
             Built secure DevOps pipelines for Ai/ML fintech SaaS that supports
             200k+ records and 1k+ users (via Azure CI/CD, Docker and K8s) to
-            increase deployment effeciency time by 50%.
+            increase deployment effeciency time by 50% and 99%+ uptime.
           </>,
           <>
             Spearheaded the integration of AI tools into design workflows,
