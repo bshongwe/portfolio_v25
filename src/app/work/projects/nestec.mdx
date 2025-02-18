@@ -1,8 +1,9 @@
 ---
 title: "Nestec"
-publishedAt: "2024-04-01"
-summary: "Explore a more advanced approach of CI/CD or DevOps and Ai through this app's ML pipeline."
+publishedAt: "2024-04-04"
+summary: "Explore how this app can address South African farmers’ in the Vaal and Jo’burg Market, extending nationwide using Ai and APIs."
 images:
+  - "/images/projects//alx/nestec.jpg"
   - "/images/projects/project-01/nestec.png"
   - "/images/projects/project-01/nestec-02.png"
   - "/images/projects/project-01/nestec-03.png"
@@ -30,31 +31,52 @@ available on mobile store platforms.
 
 <i> "...Empowering farmers, one harvest at a time..." </i>
 
+## What is Nestec?
+
+Nestec is an agriculture app whose aim is to improve agricultural practices
+faced by South African farmers through its cutting edge tech stack. The app
+employs agriculture news content APIs and weather forecast APIs, helps the user
+manage their farm using cutting edge pest and disease detection AI technology.
+
 ## Key Features
 
 - **Inventory**: nventory module helps farmers manage the farm's labour, equipment, livestock and farm activities. The app utilises a database that stores each labourer's information, farm equipment details, as well as scheduled farm activities.
-- **Data Ingestion**: Downloads the dataset from a secure location and extracts it for further processing.
-- **Data Validation**: Validates data against a schema to ensure integrity and correctness.
-- **Data Transformation**: Applies necessary transformations (encoding, scaling) to prepare data for training.
-- **Model Training**: Trains a Random Forest model using both dummy and real data.
-- **Model Evaluation**: Evaluates the trained model's performance on a test set.
-- **Deploy**: Builds and pushes a Docker image to GitHub Container Registry, then deploys via SSH.
+- **Disease Detection**: Nestec disease detection module employs high precision technology provided by Roboflow's AI inference and detection models which use YOLO v8 training.
+- **Market News**: Nestec market news module employs agriculture news content APIs, bringing newly developed technological solution in the agriculture industry. The module takes advantage of live feeds from leading industry experts and reputable market sources.
+- **Seed Database**: Nestec seed database module utilises various seed breeder and suppliers database APIs, bringing all this at finger-tips' reach. The module allows the user to select the best-suited seed according the agrological zone and agronomical characteristics.
+- **Weather and Map**: Nestec weather module employs weather forecast APIs that retrieve hourly, daily or weekly weather forecast using advanced GPS technology which uses realtime GPS tracking.
+- **OAuth**: Email and JWT token generation for user auth sessions.
+- **Roboflow Inference**: YOLO v8 trained model allows captured image analysis, rendering diagnosis of both livestock and crops of possible disease disease infestation, accumulates more data captured and stores it in the cloud database.
 
 ## Technologies Used
+#### Frontend
 
-- **MLflow**: For experiment tracking.
-- **Flask**: For the ML app's API, triggers training on deployment through endpoint.
-- **DVC**: For data versioning.
-- **Docker**: For ochestration/ containerisation.
-- **Streamlit**: For the ML app's interactive UI.
-- **GitHub Actions**: For CI/ CD automation via the pipeline and syncing design changes to the repository.
+- **react-router-dom**: For client-side routing
+- **axios**: For making HTTP requests to the backend API
+- **Bootstrap 5**: For styling and UI components
+- **Node.js**: Server-side rendering
+
+#### Backend
+
+- **Express**: For RESTful API and handling HTTP requests.
+- **Mongoose**: For interacting with MongoDB database.
+- **dotenv**: For loading environment variables.
+- **bcrypt and jsonwebtoken**: For hashing passwords, verifying JWTs for authentication.
+- **Redis-CLI**: For caching the database server.
+- **Node.js**: For Nestec's server and API functions.
+- **Roboflow YOLO v8 API**: For disease detection and analysis.
+- **OpenWeather API**: For weather forecast.
 
 ## Challenges and Learnings
 
-The main challenge was getting the pipeline's check points to pass (all green checks). Debugging the deployed model became easier once this was handled.
+Not having used React Material-UI before then, mounting it ontop of React.js
+led to switching to a different frontend stack altogether due to the short
+period of time (deadline) given to complete the MVP. This also meant switching
+databases, but all this was rectified.
 
 ## Outcome
 
-The model's accuracy gradually increased, by atleast 15% from first deployment as of 14 February 2025.
+The use of cloud hosted APIs and a light weight frontend framework improved the
+app's overall performance, as well as SEO and UI/UX ratings.
 
 ---
