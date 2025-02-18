@@ -179,7 +179,7 @@ const about = {
             99%.
           </>,
           <>
-            Mnetored 5 incoming junior developers.
+            Mentored 5 incoming junior developers.
           </>,
         ],
         images: [
