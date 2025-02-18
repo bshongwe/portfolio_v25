@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Ernest is a Sandton-based software engineer, passionate about buiding
+        Ernest is a Sandton-based software engineer, passionate about building
         multiplatiform solutions with 3+ years of experience. His work involves
         LLM RAG Full Stack SaaS products and secure DevOps pipelines.
       </>
