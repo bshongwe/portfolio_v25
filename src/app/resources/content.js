@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I build Ai-powered SaaS Products via secure DevOps pipelines using AWS
-      Azure and GCP cloud services.
+      join my newsletter today and be part of my evergrowing community today.
+      Signup to get the latest updates on my projects, blog posts and more.
     </>
   ),
 };
