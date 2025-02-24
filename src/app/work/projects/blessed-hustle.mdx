@@ -1,0 +1,87 @@
+---
+title: "E2E Automated ML RAG DevOps Pipeline"
+publishedAt: "2025-02-10"
+summary: "Explore the development of an eCommerce SaaS that uses multiple payment gateways used across Southern Africa."
+images:
+  - "/images/projects/project-08/blessed-hustle.png"
+team:
+  - name: "Ernest"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/ernest-shongwe/"
+link: "https://github.com/bshongwe/"
+---
+
+# Blessed Hustle E-Commerce Platform
+
+**Blessed Hustle** is an e-commerce platform designed to connect with small
+businesses, entrepreneurs and clients in Southern Africa by providing a
+seamless online shopping experience. It integrates multiple payment gateways to
+support local and international transactions, with a focus on scalability,
+security and reliability.
+
+---
+
+## Project Overview
+
+Blessed Hustle consists of two main components:
+- **Frontend (`orebi_client`)**: A React-based static site built with Create React App, offering a user-friendly shopping cart interface.
+- **Backend (`orebi_server`)**: A Node.js Express server with ES Modules, handling payment processing, transaction tracking, and API services.
+
+The platform targets Southern African markets (e.g., South Africa, Botswana,
+Zimbabwe) but is designed to scale across Africa, with deployment optimized for
+low-latency regions like `europe-west1` on GCP.
+
+---
+
+## Key Features
+
+### Frontend
+- **Shopping Cart**: Add, remove, and manage items with real-time total calculations (subtotal, discount, total).
+- **Payment Selection**: Choose from multiple payment methods directly in the UI.
+- **Responsive Design**: Built with React and styled for mobile and desktop users.
+
+### Backend
+- **Payment Gateway Integration**:
+  - **MTN MoMo**: Mobile money payments for Southern Africa.
+  - **PayShap**: Instant EFT via South African banks (Capitec, FNB, Standard Bank, Investec, Nedbank, Absa).
+  - **PayPal**: International card and PayPal account payments.
+  - **iKhokha**: Local card and EFT payments.
+  - **Paystack**: Pan-African payment solution for cards and mobile money.
+  - **Yoco**: South African online payment processing.
+- **Transaction Tracking**:
+  - **Redis**: Caches transaction status (pending, completed, failed) for fast lookups.
+  - **PostgreSQL**: Persistently stores transaction details (ID, method, amount, status, etc.).
+- **Idempotency**: Prevents duplicate transactions using unique keys.
+- **Rate Limiting**: Protects against abuse with a 100-requests-per-15-minutes limit.
+- **Robust Error Handling**: Retries Redis/PostgreSQL connections, logs errors with Winston.
+
+### Deployment
+- **GCP Cloud Run**: Hosts both frontend (static) and backend (server) with auto-scaling.
+- **CI/CD Pipeline**: GitHub Actions deploys to GCP, with testing, health checks, and rollback on failure.
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React**: UI framework with Create React App.
+- **Redux**: State management for the shopping cart.
+- **Framer Motion**: Animations for a smooth user experience.
+- **React Hot Toast**: User notifications.
+
+### Backend
+- **Node.js**: Runtime with ES Modules (`type: "module"`).
+- **Express**: Web framework for API routes.
+- **Redis**: In-memory caching for idempotency and status.
+- **PostgreSQL**: Relational database for transactions.
+- **Sequelize**: ORM for PostgreSQL interactions.
+- **Winston**: Logging with file and console output.
+- **Node-Fetch**: HTTP requests for payment APIs.
+
+### Deployment
+- **GCP Cloud Run**: Serverless hosting.
+- **Docker**: Containerization for consistent builds.
+- **GitHub Actions**: CI/CD pipeline.
+
+---
