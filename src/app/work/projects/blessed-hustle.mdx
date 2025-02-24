@@ -25,8 +25,8 @@ security and reliability.
 ## Project Overview
 
 Blessed Hustle consists of two main components:
-- **Frontend (`orebi_client`)**: A React-based static site built with Create React App, offering a user-friendly shopping cart interface.
-- **Backend (`orebi_server`)**: A Node.js Express server with ES Modules, handling payment processing, transaction tracking, and API services.
+- **Frontend**: A React-based static site built with Create React App, offering a user-friendly shopping cart interface.
+- **Backend**: A Node.js Express server with ES Modules, handling payment processing, transaction tracking, and API services.
 
 The platform targets Southern African markets (e.g., South Africa, Botswana,
 Zimbabwe) but is designed to scale across Africa, with deployment optimized for
@@ -59,29 +59,5 @@ low-latency regions like `europe-west1` on GCP.
 ### Deployment
 - **GCP Cloud Run**: Hosts both frontend (static) and backend (server) with auto-scaling.
 - **CI/CD Pipeline**: GitHub Actions deploys to GCP, with testing, health checks, and rollback on failure.
-
----
-
-## Tech Stack
-
-### Frontend
-- **React**: UI framework with Create React App.
-- **Redux**: State management for the shopping cart.
-- **Framer Motion**: Animations for a smooth user experience.
-- **React Hot Toast**: User notifications.
-
-### Backend
-- **Node.js**: Runtime with ES Modules (`type: "module"`).
-- **Express**: Web framework for API routes.
-- **Redis**: In-memory caching for idempotency and status.
-- **PostgreSQL**: Relational database for transactions.
-- **Sequelize**: ORM for PostgreSQL interactions.
-- **Winston**: Logging with file and console output.
-- **Node-Fetch**: HTTP requests for payment APIs.
-
-### Deployment
-- **GCP Cloud Run**: Serverless hosting.
-- **Docker**: Containerization for consistent builds.
-- **GitHub Actions**: CI/CD pipeline.
 
 ---
