@@ -56,7 +56,7 @@ const home = {
   subline: (
     <>
       I am Ernest, a Software Engineer at <InlineCode>Beqy.ai</InlineCode>, where I build
-      <br /> Ai-powered fintech solutions, deployed via secure pipelines.
+      <br /> Ai-powered fintech solutions, deployed via secure DevOps & MLpipelines.
     </>
   ),
 };
@@ -89,7 +89,7 @@ const about = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "WORK EXPERIENCE",
     experiences: [
       {
         company: "Beqy.ai",
@@ -98,12 +98,25 @@ const about = {
         achievements: [
           <>
             Built secure DevOps pipelines for Ai/ML fintech SaaS that supports
-            200k+ records and 1k+ users (via Azure CI/CD, Docker and K8s) to
-            increase deployment effeciency time by 50% and 99%+ uptime.
+            200k+ records, 10k+ transactions and 1k+ users.
           </>,
           <>
             Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            enabling designers to iterate 50% faster via Azure CI/CD, Docker
+            and K8s, achieving 99%+ uptime.
+          </>,
+          <>
+            Configured VMs, proxy, load balancer, SSL and other infrastructure
+            components to ensure high availability and scalability. Also
+            designed and implemented a secure CI/CD pipeline for the SaaS.
+          </>,
+          <>
+            Improved the AI/ML model accuracy by 20% through data pipeline
+            optimisation and feature engineering.
+          </>,
+          <>
+            Attended the Microsoft AI Tour 2025 (Johannesburg) to stay updated
+            with the latest AI/ML trends and technologies.
           </>,
         ],
         images: [
@@ -118,17 +131,24 @@ const about = {
       },
       {
         company: "KalKey Inc",
-        timeframe: "Apr 2024 - Nov2024",
+        timeframe: "Mar 2024 - Nov 2024",
         role: "DevOps Engineer",
         achievements: [
           <>
             Deployed and maintained 4+ automated pipelines, a high-availability
             data pipeline (DynamoDB, CosmosDB) and severless architecture (AWS
-            Lambda & API Gateway) leading to 25% deployment effeciency.
+            Lambda & API Gateway) leading to 60% deployment effeciency, 30%
+            provisioning time reduction and 50% reducution in post-deployment
+            issues.
           </>,
           <>
-            Led maintenance of 4+ projects, improved setup effeciency by 30%
-            and reduced downtime by 40%.
+            Led maintenance of 7+ serverless apps and 4+ secure, automated
+            pipelines, improved setup effeciency by 30% and reduced downtime by
+            40%.
+          </>,
+          <>
+            Undertook on-job training in DevSecOps and Data Science, sponsered
+            by KalKey Inc.
           </>,
         ],
         images: [
@@ -143,67 +163,29 @@ const about = {
       },
       {
         company: "KalKey Inc",
-        timeframe: "Mar 2024 - Apr 2024",
-        role: "Full Stack Python Developer",
-        achievements: [
-          <>
-            Built and maintained 7+ serverless Python-based apps using AWS
-            Lambda and AWS API Gateway, achieving 20% bug reduction and 15%
-            server response delay.
-          </>,
-          <>
-            Optimised UI/UX, increasing custmoer satisfaction by 30%.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/work/kalkey.png",
-            alt: "KalKey",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "KalKey Inc",
-        timeframe: "Dec 2023 - Mar 2024",
+        timeframe: "Oct 2023 - Mar 2024",
         role: "Full Stack Web Developer",
         achievements: [
           <>
-            Developed and built 4+ MERN project, optimised load time by 40%,
-            optmised 8+ web systems to reduce server response delay by 35%.
+            Built and maintained 12+ projects, averaging 99% uptime, 40%
+            improvement in load time and 30% development cost reduction.
           </>,
           <>
-            Developed and built 12+ additional projects to improve uptime to
-            99%.
+            Optimised UI/UX, increasing customer satisfaction by 30%, API
+            integration that reduced latency by 15% and 30% improved SEO.
+          </>,
+          <>
+            Leveraged Espresso, Mockito, JUnit and Mocha-Chai to test 10+
+            projects, achieving 99%+ test coverage and 10% reduction in
+            post-deployment issues.
+          </>,
+          <>
+            Developed and built 4+ MERN projects, optimised load time by 40%,
+            optmised 8+ web systems to reduce server response delay by 35%.
+            Developed 12+ additional projects with an average uptime of 99%.
           </>,
           <>
             Mentored 5 incoming junior developers.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/work/kalkey.png",
-            alt: "KalKey",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "KalKey Inc",
-        timeframe: "Oct 2023 - Dec 2023",
-        role: "App Developer",
-        achievements: [
-          <>
-            Developed iOS and Android apps using React Native with 15% reduced
-            latency, 20% improved UI/UX, 30% reduced bugs and 99.9% stability.
-          </>,
-          <>
-            Used effecient version control to manage 5+ projects, redced
-            deployment errors by 35%.
           </>,
         ],
         images: [
@@ -230,6 +212,11 @@ const about = {
             improvement on UI/UX and 30% increase in customer satisfaction due
             to a 30% deployment error reduction rate.
           </>,
+          <>
+            Develped iOS and Android apps using React Native and Flutter.
+            Achieved 15% latency reduction, improving existing UI/UX by 20%,
+            bug reduction of 30% and an averga stability of 99.9%.
+          </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -245,7 +232,7 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "EDUCATION",
     institutions: [
       {
         name: "ALX Africa",
