@@ -24,20 +24,64 @@ link: "https://github.com/bshongwe/simple_shell/"
 
 ## Overview
 
-TBA.
+The Simple Shell project is a recreation of a fundamental component of UNIX operating systems, tracing back to the pioneering work of Ken Thompson and Dennis Ritchie at Bell Labs in the late 1960s. The shell concept emerged as a critical interface between users and the kernel, with Stephen Bourne's Bourne Shell (sh) becoming one of the most influential early implementations. 
+
+Our implementation draws inspiration from this rich history, acknowledging how the B programming language evolved into C, which became the foundation for modern shell development. This project represents not just a technical exercise but a connection to the philosophy of UNIX: creating modular, efficient tools that do one thing well and can be combined to solve complex problems.
 
 ## Key Features
 
-- TBA
+- **Command Parsing and Interpretation**: Robust lexical analysis and syntax parsing to interpret user commands
+- **Process Execution**: Implementation of command execution using `execve`, with proper process creation via `fork` and synchronization with `wait`
+- **Signal Handling**: Graceful handling of signals like SIGINT (Ctrl+C) for a responsive user experience
+- **Built-in Commands**: Implementation of essential built-ins including `cd`, `exit`, `env`, `setenv`, and `alias`
+- **Environment Variable Management**: Functionality to access, modify, and utilize environment variables
+- **Modular Design**: Software engineering principles applied through separation of concerns and modular code organization
+- **Error Handling**: Comprehensive error detection, reporting, and recovery mechanisms
+- **Memory Management**: Careful allocation and deallocation to prevent memory leaks
+- **Betty Style Compliance**: Adherence to coding standards for readability and maintainability
 
 ## Technologies Used
 
-- TBA
+- **C Programming Language**: Core implementation using standard C99
+- **GCC Compiler**: Compilation with strict flags (`-Wall -Werror -Wextra -pedantic`)
+- **System Calls**: Extensive use of UNIX system calls including:
+  - `fork()` for process creation
+  - `execve()` for command execution
+  - `wait()` and `waitpid()` for process synchronization
+  - `stat()` for file information
+  - `signal()` for signal handling
+- **Standard Library**: Strategic use of standard library functions while implementing custom versions where appropriate
+- **Version Control**: Git for collaborative development and version tracking
+- **Valgrind**: Memory leak detection and debugging
 
 ## Challenges and Learnings
 
-TBA
+The development of our Simple Shell presented several significant challenges that deepened our understanding of software engineering concepts:
+
+- **Process Management Complexity**: Mastering the intricacies of creating child processes, handling their execution, and managing their termination required deep understanding of UNIX process architecture. We learned to implement proper parent-child process relationships and signal handling.
+
+- **Memory Management**: Preventing memory leaks demanded rigorous tracking of all allocations and implementing systematic deallocation strategies. This reinforced the importance of resource management in systems programming.
+
+- **Command Parsing**: Designing a parser that could handle various command formats, including arguments, options, and special characters, taught us about lexical analysis and syntax interpretation techniques.
+
+- **Error Handling**: Implementing robust error detection and recovery mechanisms across all shell operations highlighted the importance of defensive programming and graceful degradation.
+
+- **Interprocess Communication**: Managing communication between parent and child processes reinforced our understanding of process isolation and synchronization mechanisms.
+
+- **Design Patterns**: We applied the command pattern for implementing built-in commands, observer pattern for signal handling, and factory pattern for command creation, gaining practical experience with software design patterns.
+
+- **Debugging Techniques**: Developing systematic debugging approaches for complex process-related issues enhanced our troubleshooting skills and analytical thinking.
 
 ## Outcome
 
-TBA
+Our Simple Shell project successfully implements a functional UNIX command interpreter that faithfully reproduces core shell behaviors while maintaining clean, modular code. The project demonstrates mastery of essential software engineering concepts including:
+
+- **Process Management**: Creating, executing, and synchronizing processes using system calls
+- **Memory Management**: Implementing allocation strategies that prevent leaks and fragmentation
+- **Modular Programming**: Organizing code into logical, reusable components with clear interfaces
+- **Error Handling**: Building robust mechanisms to detect, report, and recover from errors
+- **Signal Processing**: Managing asynchronous events through proper signal handling
+
+Beyond the technical implementation, this project provided invaluable insights into the architecture of operating systems and the design principles that have made UNIX so influential. The experience reinforced our understanding that effective software engineering is not just about writing code that works, but creating systems that are maintainable, robust, and elegantly designed.
+
+The Simple Shell stands as a testament to our ability to apply theoretical computer science concepts to practical systems programming challenges while adhering to industry best practices.
