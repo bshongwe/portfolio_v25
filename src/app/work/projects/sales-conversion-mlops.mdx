@@ -38,15 +38,15 @@ Neptune Integration.
 
 The pipeline comprises the followin:
 
-1. **run_pipeline.py**: Initiates the training pipeline.
-2. **steps/ingest_Data**: Ingests the data, sending it to the data_validation step.
-3. **data_validation step**: Conducts validation tests and transforms values.
-4. **steps/clean_Data**: Carries out data preprocessing logics.
-5. **data_Drift_validation step**: Conducts data drift tests.
-6. **steps/train_model.py**: Utilizes h2o.ai AUTOML for model selection.
-7. **src/train_models.py**: Implements the best model on the cleaned dataset.
-8. **model_performance_Evaluation.py**: Assesses model performance on a split dataset.
-9. **steps/alert_report.py**: If any of validation test suites doesn't meet threshold condition, email will be sent to the user, along with the failed Evidently.AI generated HTML reports.
+- **run_pipeline.py**: Initiates the training pipeline.
+- **steps/ingest_Data**: Ingests the data, sending it to the data_validation step.
+- **data_validation step**: Conducts validation tests and transforms values.
+- **steps/clean_Data**: Carries out data preprocessing logics.
+- **data_Drift_validation step**: Conducts data drift tests.
+- **steps/train_model.py**: Utilizes h2o.ai AUTOML for model selection.
+- **src/train_models.py**: Implements the best model on the cleaned dataset.
+- **model_performance_Evaluation.py**: Assesses model performance on a split dataset.
+- **steps/alert_report.py**: If any of validation test suites doesn't meet threshold condition, email will be sent to the user, along with the failed Evidently.AI generated HTML reports.
 
 Each step is crucial in refining and validating our model. All aboard the train pipeline! 🌟🚆
 
@@ -55,10 +55,10 @@ Each step is crucial in refining and validating our model. All aboard the train 
 The continuous integration pipeline focuses on the production environment and
 streamlined processes for deployment 🔄:
 
-1. **ci-cd.py**: Triggered to initiate the CI/CD pipeline.
-2. **steps/production_batch_data**: Accesses production batch data from the Production_data folder
-3. **pipelines/ci_cd_pipeline.py**: As we already discussed earlier, we conduct Data Quality, Data Drift as previously we did, if threshold fails, email reports are sent.
-4. **steps/predict_production_Data.py**: Utilizes the pre-trained best model to make predictions on new production data. Then, we conduct Model Performance validation as previously we did, if threshold fails, email reports are sent.
+- **ci-cd.py**: Triggered to initiate the CI/CD pipeline.
+- **steps/production_batch_data**: Accesses production batch data from the Production_data folder
+- **pipelines/ci_cd_pipeline.py**: As we already discussed earlier, we conduct Data Quality, Data Drift as previously we did, if threshold fails, email reports are sent.
+- **steps/predict_production_Data.py**: Utilizes the pre-trained best model to make predictions on new production data. Then, we conduct Model Performance validation as previously we did, if threshold fails, email reports are sent.
 
 This pipeline is crucial for maintaining a continuous and reliable deployment
 process. 🔁✨
@@ -80,11 +80,8 @@ failures, an email is generated detailing:
 
 # Prediction App 🚀
 
-The Prediction App is the user-facing interface that leverages the trained models to make predictions based on user input. 🎯
-To run the streamlit application,
-    ```bash
-    streamlit run app.py
-    ```
+The Prediction App is the user-facing interface that leverages the trained
+models to make predictions based on user input. It runs on Streamlit. 🎯
 
 ## Functionality:
 - 🌐 **Streamlit Application**: User-friendly interface for predictions and monitoring.
@@ -97,19 +94,14 @@ This app streamlines the process of making predictions, interpreting model
 outputs, monitoring data, and validating batch data.
 
 ## Prediction App 🚀
-### User Input Data
+- User Input Data
 - Fields: Impressions, Clicks, Spent, Total_Conversion, CPC.
 - Predict button generates approved conversion predictions.
-- 🔗 [Neptune.ai Metrics](https://app.neptune.ai/Vishal-Kumar-S/Sales-Conversion-Optimisation-MLOps-Project)
-
-
-
 
 ## Interpretability Section
 - 📝 **Detailed Interpretability Report**: View global interpretability metrics.
 - 🌐 **SHAP Global Plot**: Explore SHAP values at a global level.
 - 🌍 **SHAP Local Plot**: Visualize SHAP values for user-input data.
-
 
 ## Data and Model Reports
 - 📉 **Data Quality Report**: Assess data quality between reference and current data.
@@ -118,10 +110,10 @@ outputs, monitoring data, and validating batch data.
 - 📉 **Model Performance Report**: Evaluate the model's performance.
 
 ## Test Your Batch Data
-1. 📂 **Dataset Upload**: Upload your batch dataset for validation.
-2. 📧 **Email Alerts**: Provide an email for failure alerts.
-3. 🔄 **Data Validation Progress**: 67 tests to ensure data quality.
-4. 📊 **Visualizations**: Scatter plot and residuals plot for validation results.
+- 📂 **Dataset Upload**: Upload your batch dataset for validation.
+- 📧 **Email Alerts**: Provide an email for failure alerts.
+- 🔄 **Data Validation Progress**: 67 tests to ensure data quality.
+- 📊 **Visualizations**: Scatter plot and residuals plot for validation results.
 
 
 # Neptune.ai Dashboard 🌊
@@ -130,20 +122,20 @@ outputs, monitoring data, and validating batch data.
 
 Neptune.ai offers an intuitive dashboard for comprehensive tracking and management of experiments, model metrics, and pipeline performance.
 
-1. **Visual Metrics**: Visualize model performance metrics with interactive charts and graphs for seamless analysis. 📈📊
-2. **Experiment Management**: Track experiments, parameters, and results in a structured and organized manner. 🧪📋
-3. **Integration Capabilities**: Easily integrate Neptune.ai with pipeline steps for automated tracking and reporting. 🤝🔗
-4. **Collaboration Tools**: Facilitate teamwork with collaborative features and easy sharing of experiment results. 🤝💬
-5. **Code and Environment Tracking**: Monitor code versions and track environments used during experimentation for reproducibility. 🛠️📦
+- **Visual Metrics**: Visualize model performance metrics with interactive charts and graphs for seamless analysis. 📈📊
+- **Experiment Management**: Track experiments, parameters, and results in a structured and organized manner. 🧪📋
+- **Integration Capabilities**: Easily integrate Neptune.ai with pipeline steps for automated tracking and reporting. 🤝🔗
+- **Collaboration Tools**: Facilitate teamwork with collaborative features and easy sharing of experiment results. 🤝💬
+- **Code and Environment Tracking**: Monitor code versions and track environments used during experimentation for reproducibility. 🛠️📦
 
 
 ## CML Reports Integration 🚀
 
-🎯 Predictions Scatter Plot: Visualizes model predictions against actual conversions.
-📈 Residuals Plot: Illustrates the differences between predicted and actual values.
+- 🎯 Predictions Scatter Plot: Visualizes model predictions against actual conversions.
+- 📈 Residuals Plot: Illustrates the differences between predicted and actual values.
 
 ## GitHub Actions Workflow 🛠️
 
-Integrated into CI/CD pipeline:
+- **Integrated into CI/CD pipeline**:
 - Automatic generation on every push event.
 - Visual insights available directly in the repository.
