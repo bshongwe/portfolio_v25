@@ -31,7 +31,7 @@ export const Footer = () => {
             / Connect with me{" "}
             <SmartLink
               style={{ marginLeft: "-0.125rem" }}
-              href="https://ernestshong.me"
+              href="https://ernestshong.me/"
             >
               via my website
             </SmartLink>

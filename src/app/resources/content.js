@@ -17,7 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      join my newsletter today and be part of my evergrowing community today.
+      join my newsletter today and be part of my evergrowing tech community.
       Signup to get the latest updates on my projects, blog posts and more.
     </>
   ),
@@ -30,6 +30,11 @@ const social = [
     name: "GitHub",
     icon: "github",
     link: "https://github.com/bshongwe",
+  },
+  {
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/ernest-beqy",
   },
   {
     name: "LinkedIn",
