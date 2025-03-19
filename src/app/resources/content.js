@@ -256,7 +256,7 @@ const about = {
       },
       {
         name: "Headstarter",
-        timeframe: "Jun 2024 - Sept 2025",
+        timeframe: "Jun 2024 - Sept 2024",
         description: <>Software Engineering: Ai Fellowship.</>,
       },
       {
